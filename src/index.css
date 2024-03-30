@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Commissioner", sans-serif;
+}
+section {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.Ham {
+  color: white;
+}
+.Ham {
+  display: none;
+}
+header {
+  height: 10vh;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  .Ham {
+    display: block;
+  }
+  ul {
+    height: 90vh;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
